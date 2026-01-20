@@ -44,8 +44,47 @@ A Raycast extension for working with Logseq database graphs (version 2.0.0+). Qu
 
 ## Installation
 
-1. Install the extension in Raycast
-2. Configure the extension preferences:
+### Option 1: From Raycast Store (Recommended - Coming Soon)
+
+Once published to the Raycast Store, you'll be able to install directly from Raycast:
+
+1. Open Raycast
+2. Search for "Store" or press `⌘,` to open settings
+3. Navigate to Extensions tab
+4. Search for "Logseq DB"
+5. Click Install
+
+### Option 2: Install from Source (Available Now)
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Joemnewton/logseq-db-raycast-extension.git
+   cd logseq-db-raycast-extension
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Build the extension:**
+   ```bash
+   npm run build
+   ```
+
+4. **Import into Raycast:**
+   - Open Raycast
+   - Search for "Import Extension" (or press `⌘,` → Extensions → ➕)
+   - Select the `logseq-db-raycast-extension` folder
+   - The extension will appear in your Raycast commands
+
+### Configuration
+
+After installation, configure the extension preferences:
+
+1. Open Raycast and search for any Logseq DB command
+2. Press `⌘,` to open extension preferences
+3. Configure the following:
    - **Graph Path**: Full path to your graph (e.g., `~/logseq/graphs/my-graph`)
    - **API Token**: The token from Logseq Settings > AI > MCP Server
    - **Enable Timestamp** (optional): Add timestamps to captured notes
