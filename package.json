@@ -10,19 +10,22 @@
       "name": "quick-capture",
       "title": "Quick Capture",
       "description": "Quickly add a note to today's journal",
-      "mode": "view"
+      "mode": "view",
+      "icon": "command-icon.png"
     },
     {
       "name": "search",
       "title": "Search Graph",
       "description": "Search across your Logseq graph",
-      "mode": "view"
+      "mode": "view",
+      "icon": "command-icon.png"
     },
     {
       "name": "add-task",
       "title": "Add Task",
       "description": "Create a new task with properties",
-      "mode": "view"
+      "mode": "view",
+      "icon": "command-icon.png"
     }
   ],
   "preferences": [
