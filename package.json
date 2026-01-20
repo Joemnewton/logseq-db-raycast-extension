@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "logseq-db",
   "title": "Logseq DB",
-  "description": "Quick capture notes and search your Logseq database graphs",
+  "description": "Raycast extension for Logseq database graphs (v2.0.0+)",
   "author": "joenewton",
   "license": "MIT",
   "commands": [
